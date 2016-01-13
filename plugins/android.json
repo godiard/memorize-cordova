@@ -9,10 +9,6 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<preference name=\"webView\" value=\"org.crosswalk.engine.XWalkWebViewEngine\" />",
                             "count": 1
                         },
@@ -38,6 +34,10 @@
                         },
                         {
                             "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -76,13 +76,13 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "org.sugarlabs.Memorize"
-        },
         "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "org.sugarlabs.Memorize"
         },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "org.sugarlabs.Memorize"
+        },
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "org.sugarlabs.Memorize"
         }
     },

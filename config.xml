@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.sugarlabs.Memorize" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.sugarlabs.Memorize" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Memorize</name>
     <description>
          Play and create your own games
@@ -18,9 +18,9 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="fullscreen" value="true" />
-    <preference name="uiwebviewbounce" value="false" />
-    <preference name="webviewbounce" value="false" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="uiWebViewBounce" value="false" />
+    <preference name="webViewBounce" value="false" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
